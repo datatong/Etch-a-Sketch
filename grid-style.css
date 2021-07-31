@@ -5,16 +5,17 @@
     justify-content: center;
     align-content: center;
     background-color: grey;
-    border-color: black;
-    padding: 25px 25px;
+    padding: 25px;
+    margin: auto;
 }
 
 .squareDivs {
-    flex-basis: 21%; /*Allows 4 items per row and room to adjust margin*/
     background-color: lightgray;
-    width: 50px;
+    flex: auto;
+    width: auto;
     height: 50px;
     margin: 1px;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 50px;
 }
