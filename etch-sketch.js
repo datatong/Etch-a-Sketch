@@ -6,5 +6,5 @@ var gridAmount = 8;
 for (i = 0; i < gridAmount; i++) {
     const squareDivs = document.createElement('div');
     DivContainer.appendChild(squareDivs);
-    squareDivs.className = "squareDivs";
+    squareDivs.className = "squareDivs";   
 }
