@@ -4,17 +4,18 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    background-color: grey;
-    padding: 25px;
+    background-color: lightgray;
+    padding: 25px 5px 25px 5px;
     margin: auto;
     align-items: flex-start;
-    width: 450px;
+    width: 500px;
+    flex: 1 1 auto;
 }
 
 .squareDivs {
-    background-color: lightgray;
+    background: white;
     flex: 0 1 auto;
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     margin: 1px;
 }
