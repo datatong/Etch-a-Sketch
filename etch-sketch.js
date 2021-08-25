@@ -33,7 +33,7 @@ gridDimensions.oninput = function() {
     sliderDisplay.innerHTML = this.value;
 }
 
-//To remove square grid colors and recreate grid
+//Removes square grid colors and recreate grid
 function clearGridColor() {
     squareDivs.removeEventListener('mouseenter', ());
     createGrid();
