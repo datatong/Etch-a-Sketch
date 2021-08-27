@@ -35,11 +35,8 @@ gridDimensions.oninput = function() {
 
 //Removes square grid colors and recreate grid
 function clearGridColor() {
-    squareDivs.removeEventListener('mouseenter', () => {
-        squareDivs.style.background = "#" + Math.floor(80 + Math.random()*100).toString(16).padStart(2, "0") + 
-        Math.floor(80 + Math.random()*100).toString(16).padStart(2, "0") + 
-        Math.floor(80 + Math.random()*100).toString(16).padStart(2, "0");
-    });
+    var newSquareDivs = document.querySelectorAll(".squareDivs");
+    newSquareDivs.forEach((squareDiv) => {squareDiv.style.background = 'white';})
 }
 
 clearButton.addEventListener('click', clearGridColor);
