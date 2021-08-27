@@ -33,7 +33,7 @@ gridDimensions.oninput = function() {
     sliderDisplay.innerHTML = this.value;
 }
 
-//Removes square grid colors and recreate grid
+//Changes squareDivs color to white
 function clearGridColor() {
     var newSquareDivs = document.querySelectorAll(".squareDivs");
     newSquareDivs.forEach((squareDiv) => {squareDiv.style.background = 'white';})
